@@ -241,11 +241,11 @@ $num=1;
 $dayq = $day-$num;
 
 $path = $targetDir . $year . '/' . $month . '/' . $day;
-$directory = $path;  // 将'你的文件夹路径'替换为你的实际文件夹路径
+$directory = $path;  
 $file_count = count_files_in_directory($directory);
 
 $path2 = $targetDir . $year . '/' . $month . '/' . $dayq;
-$directory2 = $path2;  // 将'你的文件夹路径'替换为你的实际文件夹路径
+$directory2 = $path2;  
 $file_count2 = count_files_in_directory($directory2);
 
 $folder = '../images'; // 文件夹路径
@@ -325,7 +325,7 @@ foreach ($subfolders as $subfolder) {
                     <center>
                         
 <?php
-$url = "https://lwcat.cn/img/update.php"; // 替换为您要请求的链接
+$url = "https://lwcat.cn/img/update.php";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
