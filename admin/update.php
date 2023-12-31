@@ -21,7 +21,7 @@
       
       <!-- logo -->
       <div id="logo" class="sidebar-header">
-        <a href="index.html"><h3>小猫咪图床</h3></a>
+        <a href="/"><h3>小猫咪图床</h3></a>
       </div>
       <div class="lyear-layout-sidebar-scroll"> 
         
