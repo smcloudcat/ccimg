@@ -232,7 +232,7 @@ include '../common/version.php';
                     <center>
                         
 <?php
-$url = "https://lwcat.cn/img/update.php"; // 替换为您要请求的链接
+$url = "https://lwcat.cn/img/update.php"; 
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
