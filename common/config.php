@@ -8,7 +8,7 @@
     
     'keywords' => '小猫咪免费网盘', //关键词
     
-    'aicheck' => '1', //鉴黄开关
+    'aicheck' => '0', //鉴黄开关
     
     'footad' => '©2016-2024 小猫咪网络<br><a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2023154257号</a>', //网站底部广告
     
