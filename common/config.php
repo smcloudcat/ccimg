@@ -8,7 +8,7 @@
     
     'keywords' => '小猫咪免费图床', //关键词
     
-    'aicheck' => '1', //鉴黄开关
+    'aicheck' => '0', //鉴黄开关
     
     'typegs' => 'jpg,png,jpeg,gif', //文件格式
     
