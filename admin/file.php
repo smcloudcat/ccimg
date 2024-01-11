@@ -26,7 +26,13 @@ function scanFiles($dir) {
     return $files;
 }
 
+// 修改文件显示顺序
+function sortFilesByTime($a, $b) {
+    return filemtime($b) - filemtime($a);
+}
+
 $files = scanFiles($folder);
+usort($files, 'sortFilesByTime');
 
 if (isset($_POST['key'])) {
     if ($key == $_POST['key']) {
@@ -40,6 +46,24 @@ if (isset($_GET['delete'])) {
     if (1 == $_SESSION["keylogin"]) {
         $filename = $_GET['delete'];
         $filepath = $filename;
+        if (!isset($_GET['confirmed'])) {
+            if (file_exists($filepath) && !is_dir($filepath)) {
+                echo '<script>
+                        var confirmed = confirm("确定要删除吗？");
+                        if (confirmed) {
+                            window.location.href="?delete=' . $filename . '&confirmed=1";
+                        }
+                      </script>';
+            } else if (is_dir($filepath)) {
+                echo '<script>
+                        var confirmed = confirm("确定要删除整个文件夹吗？");
+                        if (confirmed) {
+                            window.location.href="?delete=' . $filename . '&confirmed=1";
+                        }
+                      </script>';
+            }
+            exit();
+        }
         if (file_exists($filepath) && !is_dir($filepath)) {
             unlink($filepath);
             echo '<script type="text/javascript">alert("删除成功啦～刷新页面即可");</script>';
@@ -118,7 +142,7 @@ function deleteDirectory($dir) {
         </nav>
         
         <div class="sidebar-footer">
-          <p class="copyright">Copyright &copy; 2024. <a target="_blank" href="/">云猫</a> All rights reserved.</p>
+          <p class="copyright">Copyright &copy; 2024. <a target="_blank" href="https://lwcat.cn">云猫</a> All rights reserved.</p>
         </div>
       </div>
       
