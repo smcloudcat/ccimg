@@ -2,19 +2,21 @@
     $config= [
     'url' => 'https://img.lwcat.cn/', //网站地址
     
-    'title' => '小猫咪免费网盘', //网站名称
+    'title' => '小猫咪免费图床', //网站名称
     
-    'describition' => '小猫咪免费网盘', //网站描述
+    'describition' => '小猫咪免费图床', //网站描述
     
-    'keywords' => '小猫咪免费网盘', //关键词
+    'keywords' => '小猫咪免费图床', //关键词
     
-    'aicheck' => '0', //鉴黄开关
+    'aicheck' => '1', //鉴黄开关
+    
+    'typegs' => 'jpg,png,jpeg,gif', //文件格式
     
     'footad' => '©2016-2024 小猫咪网络<br><a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2023154257号</a>', //网站底部广告
     
     'news' => '<h2>小猫咪图床</h2>请勿上传违法大陆法律的内容<br>因为本站已开启图片自动鉴黄，所以上传显示100%后请等待一会儿<br>鉴黄检测结束后即会显示图片链接', //网站首页公告
     
-    'about' => '<img src="https://q.qlogo.cn/g?b=qq&nk=3522934828&s=100" alt="头像"><p>作者：云猫</p><p>QQ：3522934828</p><p>一只待在大学里混的小懒猫</p><p>他好像什么都会一点点，又好像什么都不会的鸭子</p>
+    'about' => '<img src="https://q.qlogo.cn/g?b=qq&nk=3522934828&s=100" alt="头像"><p>作者：云猫</p><p>QQ：123456</p><p>一只待在大学里混的小懒猫</p><p>他好像什么都会一点点，又好像什么都不会的鸭子</p>
 <style>
 img {
     width: 100px;
