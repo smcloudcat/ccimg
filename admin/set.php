@@ -45,7 +45,7 @@
         </nav>
         
         <div class="sidebar-footer">
-          <p class="copyright">Copyright &copy; 2024. <a target="_blank" href="/">云猫</a> All rights reserved.</p>
+          <p class="copyright">Copyright &copy; 2024. <a target="_blank" href="https://lwcat.cn">云猫</a> All rights reserved.</p>
         </div>
       </div>
       
@@ -233,6 +233,8 @@ include '../common/key.php';
     
     'aicheck' => '".$_POST['aicheck']."', //鉴黄开关
     
+    'typegs' => '".$_POST['typegs']."', //文件格式
+    
     'footad' => '".$_POST['footad']."', //网站底部广告
     
     'news' => '".$_POST['news']."', //网站首页公告
@@ -301,6 +303,8 @@ include '../common/key.php';
                           <input type="radio" name="aicheck" value="1" <?php echo $cheee; ?>><span>是</span>
                         </label>
                       </div><br/>
+                      <b>文件格式（用英文逗号“,”隔开）</b>
+	  <input class="form-control" type="text" name="typegs" value="<?php echo $config['typegs']; ?>" required/><br/>
 	  <b>网站首页公告</b>
 	  <textarea class="form-control" type="text" name="news"  required/><?php echo $config['news']; ?></textarea><br/>
 	  <b>网站关于介绍（可用HTML,如果不会就只调QQ号和介绍文字）</b>
