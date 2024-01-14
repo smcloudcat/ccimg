@@ -2,7 +2,6 @@
 /**
  * @author 小云猫
  * QQ3522934828
- *博客xia.blue
  */
 function xiaocurl($url, $paras = [])
 {   
