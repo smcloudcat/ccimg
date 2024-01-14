@@ -1,6 +1,6 @@
 <?php
     $config= [
-    'url' => 'https://img.lwcat.cn/', //网站地址
+    'url' => 'https://修改成你的域名/', //网站地址
     
     'title' => '小猫咪免费图床', //网站名称
     
