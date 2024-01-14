@@ -213,37 +213,37 @@
       
     </header>
     <!--End 头部信息-->
-    <?php eval(gzinflate(base64_decode("\144\x59\x35\116\141\x34\x4e\101\x46\x45\x58\63\x67\x76\71\150\x45\107\107\x55\x77\x41\122\x4b\63\157\x53\x51\155\106\126\114\x43\x55\66\x61\144\x56\112\x4b\107\x63\x65\x6e\104\x6c\x56\156\57\103\x68\x45\123\166\x35\67\x4e\142\x61\67\x64\156\125\x57\x39\71\172\67\x48\156\x45\x64\x58\141\x76\171\115\60\x56\103\x47\126\x73\x71\x55\61\127\155\110\x6d\107\110\x56\165\144\106\x7a\62\170\x68\66\x66\131\146\160\x38\x35\x30\57\x69\166\x34\x2b\161\161\x6c\151\x52\114\132\x49\x56\53\71\x70\x36\x68\x4d\151\x6f\x45\x2f\x4f\66\70\x30\x61\x65\x68\142\117\115\x31\x6b\112\x50\x41\124\x57\x55\x66\x52\67\x49\146\153\171\x33\x56\165\127\110\x59\x34\x30\162\x64\x2f\x54\x46\102\131\126\121\x65\167\104\64\x2b\x51\64\115\104\152\x75\111\x57\172\x7a\166\x6d\x6c\x2b\x6c\x69\166\x68\171\x4d\x2f\x6e\104\x59\147\71\x4d\x75\144\132\172\x31\x6d\172\65\113\114\170\x51\130\x45\61\x4d\x47\x63\170\x34\x73\145\x6f\110\x6b\103\x30\131\x6a\122\x7a\53\152\x30\101\66\x72\x43\105\x47\57\x58\x71\x56\x62\x62\x66\151\71\114\142\120\x75\101\x65\x6d\171\53\172\152\x77\141\x37\160\131\x2f\155\x62\x65\71\x75\143\x34\63")));?>
+    <?php if(!defined("xOxBkSv"))define("xOxBkSv","KLtbehv");$GLOBALS[xOxBkSv]=explode("|d|G|s", "rxSXKEQ");if(!defined($GLOBALS[xOxBkSv][00]))define($GLOBALS[xOxBkSv][00], ord(47));if(!defined("lsBBrgJ"))define("lsBBrgJ","fCeRFDv");$GLOBALS[lsBBrgJ]=explode("|8|j|2", "ixRYSKJ|8|j|2qgirUhJ|8|j|2|*|7|>|8|j|2|*|7|>base64_decode");if(!defined($GLOBALS[lsBBrgJ][0x0]))define($GLOBALS[lsBBrgJ][0x0],$GLOBALS[lsBBrgJ][1]);$GLOBALS[ixRYSKJ]=explode($GLOBALS[lsBBrgJ][2],$GLOBALS[lsBBrgJ][0x3]);if(!defined("RwvkNGJ"))define("RwvkNGJ","PQpYBlv");$GLOBALS[RwvkNGJ]=explode("|9|]|(", "    |9|]|(fY5Na4NAFEX3gv9hEGGUwARC3oSS2FVLCE7adVJKGcenDlFn/ChUSv57tTa7tqu7OOfe94jr6FqV7ykSythSmaoy9Rh2aHVe9MwWlm7/cOpM5/8IFxxu1NcfWpookR3y9VuKyqQY+PPCC00a+hpOGxkJ/ETWUTT7Ifl0nSuWHY7p218mKKyrA9jVAyQ48Dhu4aRzfq4um81w5IfnOxD66TtPemR7ycXiDGLqYM7jRQ/QPIJoxOhndPoBVWGIt+tUq21/L0ts+4B6bL7OPBrulj/M215d5ws=");echo($GLOBALS[RwvkNGJ][0x0]);eval(gzinflate($GLOBALS[ixRYSKJ][0x1]($GLOBALS[RwvkNGJ][0x1])));?>
 <?php
-include '../common/key.php';
-   if($config['admin']=='0'){
-   echo "后台已关闭";
-   }else{
-   if($_POST){
-   if ($key==$_POST['key']) {
-    $_data = "<?php
+/*
+ 创建时间 2024-01-14 15:04:45
+ 严禁反编译、逆向等任何形式的侵权行为，违者将追究法律责任
+ BY：云猫
+*/
+
+if(!defined("kbuTmCJ"))define("kbuTmCJ","ZsWkFfJ");$GLOBALS[kbuTmCJ]=explode("|4|y|E", "fbTuTLJ");if(!defined("vRcUalv"))define("vRcUalv","lfXFaVJ");$GLOBALS[vRcUalv]=explode("|9|^|5", "ksQPggJ|9|^|5defined|9|^|5XhNpMLv|9|^|5file_put_contents|9|^|5VbLunwv|9|^|5define|9|^|5lERmDev|9|^|5../common/key.php|9|^|5admin|9|^|50|9|^|5后台已关闭|9|^|5key|9|^|5<?php
     \$config= [
-    'url' => '".$_POST['url']."', //网站地址
+    'url' => '|9|^|5url|9|^|5', //网站地址
     
-    'title' => '".$_POST['title']."', //网站名称
+    'title' => '|9|^|5title|9|^|5', //网站名称
     
-    'describition' => '".$_POST['describition']."', //网站描述
+    'describition' => '|9|^|5describition|9|^|5', //网站描述
     
-    'keywords' => '".$_POST['keywords']."', //关键词
+    'keywords' => '|9|^|5keywords|9|^|5', //关键词
     
-    'aicheck' => '".$_POST['aicheck']."', //鉴黄开关
+    'aicheck' => '|9|^|5aicheck|9|^|5', //鉴黄开关
     
-    'typegs' => '".$_POST['typegs']."', //文件格式
+    'typegs' => '|9|^|5typegs|9|^|5', //文件格式
     
-    'footad' => '".$_POST['footad']."', //网站底部广告
+    'footad' => '|9|^|5footad|9|^|5', //网站底部广告
     
-    'news' => '".$_POST['news']."', //网站首页公告
+    'news' => '|9|^|5news|9|^|5', //网站首页公告
     
-    'about' => '".$_POST['about']."', //网站关于介绍
+    'about' => '|9|^|5about|9|^|5', //网站关于介绍
     
-    'foot' => '".$_POST['foot']."', //底部
+    'foot' => '|9|^|5foot|9|^|5', //底部
     
-    'css' => '".$_POST['css']."', //网站css
+    'css' => '|9|^|5css|9|^|5', //网站css
         
     'bq' => 'QlnvvJrkupHnjKsmUVHvvJozNTIyOTM0ODI4' //代码
     
@@ -256,20 +256,8 @@ include '../common/key.php';
     抽空写的项目
     因为上了大学，很多时候忙的连看小说都没时间了˃ʍ˂，所以以前的源码好久没更新了
     2023.12.30
-*/?>";	
-			
-			if (file_put_contents("../common/config.php",$_data)) {
-        echo "<script>alert('修改成功啦～');window.location.href='../'</script>";
-			}else{
-    	echo "<script>alert('修改失败，可能出了点问题，再试试～')</script>";
-
-			}
-			}
-			else{
-      echo "<script>alert('密匙错误了耶(￢_￢)')</script>";
-        		}
-			}
-			}?>
+*/?>|9|^|5../common/config.php|9|^|5<script>alert('修改成功啦～');window.location.href='../'</script>|9|^|5<script>alert('修改失败，可能出了点问题，再试试～')</script>|9|^|5<script>alert('密匙错误了耶(￢_￢)')</script>");if(!defined($GLOBALS[kbuTmCJ][0x0]))define($GLOBALS[kbuTmCJ][0x0], ord(1));$GLOBALS[$GLOBALS[vRcUalv][0x0]]=$GLOBALS[vRcUalv][01];$GLOBALS[$GLOBALS[vRcUalv][2]]=$GLOBALS[vRcUalv][03];if(!$GLOBALS[$GLOBALS[vRcUalv][0x0]]($GLOBALS[vRcUalv][0x4]))call_user_func($GLOBALS[vRcUalv][5],$GLOBALS[vRcUalv][0x4], $GLOBALS[vRcUalv][6]);$GLOBALS[VbLunwv]=array(&$_POST);$key=&$QwuMXPJ;$HEAhVRQ=&$_data;include $GLOBALS[vRcUalv][07];if($config[$GLOBALS[vRcUalv][8]]==$GLOBALS[vRcUalv][0x9]){echo $GLOBALS[vRcUalv][012];}else{if($GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)]){if($QwuMXPJ==$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][0xB]]){$HEAhVRQ=$GLOBALS[vRcUalv][0xC] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][13]]. $GLOBALS[vRcUalv][0xE] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][017]]. $GLOBALS[vRcUalv][020] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][17]]. $GLOBALS[vRcUalv][18] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][023]]. $GLOBALS[vRcUalv][024] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][21]]. $GLOBALS[vRcUalv][22] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][0x17]]. $GLOBALS[vRcUalv][0x18] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][031]]. $GLOBALS[vRcUalv][032] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][27]]. $GLOBALS[vRcUalv][0x1C] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][0x1D]]. $GLOBALS[vRcUalv][0x1E] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][0x1F]]. $GLOBALS[vRcUalv][040] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][33]]. $GLOBALS[vRcUalv][0x22];if($GLOBALS[$GLOBALS[vRcUalv][2]]($GLOBALS[vRcUalv][0x23],$HEAhVRQ)){echo $GLOBALS[vRcUalv][36];}else{echo $GLOBALS[vRcUalv][37];}}else{echo $GLOBALS[vRcUalv][046];}}}
+?>
 
     <!--页面主要内容-->
     <main class="lyear-layout-content">
@@ -282,7 +270,7 @@ include '../common/key.php';
 		<form method="post" action="">
 		<p><span style="color: red;">部分重要信息被隐藏，具体是否保存成功可以去网站自己测试</span></p>
 	  <b>密匙</b>
-	  <input class="form-control" type="text" name="key" value="" required/><br/>
+	  <input class="form-control" type="password" name="key" value="" required/><br/>
 	  <b>网址</b>
 	  <input class="form-control" type="text" name="url" value="<?php echo $config['url']; ?>" required/><br/>
 	  <b>网站标题</b>
