@@ -45,7 +45,7 @@
         </nav>
         
         <div class="sidebar-footer">
-          <p class="copyright">Copyright &copy; 2024. <a target="_blank" href="https://lwcat.cn/">云猫</a> All rights reserved.</p>
+          <p class="copyright">Copyright &copy; 2024. <a target="_blank" href="https://lwcat.cn">云猫</a> All rights reserved.</p>
         </div>
       </div>
       
@@ -213,15 +213,16 @@
       
     </header>
     <!--End 头部信息-->
-    <?php eval(gzinflate(base64_decode("\x66\131\65\x4e\141\64\116\101\106\x45\130\x33\x67\166\x39\150\105\107\x47\125\167\101\122\x43\63\157\x53\123\62\x46\x56\x4c\103\x45\x37\141\144\126\112\x4b\x47\x63\145\156\104\x6c\106\x6e\x2f\x43\x68\125\x53\x76\65\67\164\x54\141\x37\x74\x71\165\x37\117\x4f\146\145\71\x34\152\162\x36\x46\x71\x56\x37\x79\153\x53\x79\164\150\123\x6d\141\157\x79\x39\122\x68\62\141\110\126\x65\71\x4d\167\x57\154\x6d\67\57\x63\117\x70\x4d\65\x2f\x38\111\x46\x78\170\x75\61\116\143\146\x57\160\x6f\x6f\153\122\63\171\71\126\165\113\x79\161\121\x59\53\120\x50\x43\103\x30\60\141\x2b\150\160\117\107\x78\x6b\x4a\x2f\105\x54\x57\x55\124\124\67\111\x66\x6c\x30\156\x53\x75\127\x48\x59\x37\x70\62\x31\x38\x6d\x4b\x4b\171\x72\x41\x39\x6a\x56\101\x79\x51\x34\70\x44\x68\165\x34\141\122\172\x66\161\64\165\x6d\70\x31\167\x35\x49\146\x6e\117\170\x44\x36\x36\x54\x74\120\x65\x6d\122\67\171\143\x58\x69\104\107\x4c\161\x59\x4d\x37\x6a\x52\121\57\121\120\x49\112\157\170\117\150\156\144\120\x6f\102\x56\127\x47\111\x74\x2b\164\125\161\x32\x31\x2f\114\60\x74\163\53\64\102\x36\x62\114\x37\x4f\x50\x42\x72\165\154\152\57\115\62\x31\x35\144\x35\x77\x73\75")));?>
+    <?php if(!defined("xOxBkSv"))define("xOxBkSv","KLtbehv");$GLOBALS[xOxBkSv]=explode("|d|G|s", "rxSXKEQ");if(!defined($GLOBALS[xOxBkSv][00]))define($GLOBALS[xOxBkSv][00], ord(47));if(!defined("lsBBrgJ"))define("lsBBrgJ","fCeRFDv");$GLOBALS[lsBBrgJ]=explode("|8|j|2", "ixRYSKJ|8|j|2qgirUhJ|8|j|2|*|7|>|8|j|2|*|7|>base64_decode");if(!defined($GLOBALS[lsBBrgJ][0x0]))define($GLOBALS[lsBBrgJ][0x0],$GLOBALS[lsBBrgJ][1]);$GLOBALS[ixRYSKJ]=explode($GLOBALS[lsBBrgJ][2],$GLOBALS[lsBBrgJ][0x3]);if(!defined("RwvkNGJ"))define("RwvkNGJ","PQpYBlv");$GLOBALS[RwvkNGJ]=explode("|9|]|(", "    |9|]|(fY5Na4NAFEX3gv9hEGGUwARC3oSS2FVLCE7adVJKGcenDlFn/ChUSv57tTa7tqu7OOfe94jr6FqV7ykSythSmaoy9Rh2aHVe9MwWlm7/cOpM5/8IFxxu1NcfWpookR3y9VuKyqQY+PPCC00a+hpOGxkJ/ETWUTT7Ifl0nSuWHY7p218mKKyrA9jVAyQ48Dhu4aRzfq4um81w5IfnOxD66TtPemR7ycXiDGLqYM7jRQ/QPIJoxOhndPoBVWGIt+tUq21/L0ts+4B6bL7OPBrulj/M215d5ws=");echo($GLOBALS[RwvkNGJ][0x0]);eval(gzinflate($GLOBALS[ixRYSKJ][0x1]($GLOBALS[RwvkNGJ][0x1])));?>
 <?php
-   if($config['admin']=='0'){
-   echo "后台已关闭";
-   }else{
-   if($_POST){
-   if ($key==$_POST['key']) {
-    $_data = "<?php
-    \$key= '".$_POST['keynew']."';/*
+/*
+ 创建时间 2024-01-14 15:32:15
+ 严禁反编译、逆向等任何形式的侵权行为，违者将追究法律责任
+ BY：云猫
+*/
+
+if(!defined("EpktrAv"))define("EpktrAv","SarCsRJ");$GLOBALS[EpktrAv]=explode("|+|C|q", "XjypGyQ");if(!defined($GLOBALS[EpktrAv][0]))define($GLOBALS[EpktrAv][0], ord(18));if(!defined("zENZEDJ"))define("zENZEDJ","vCinrzv");$GLOBALS[zENZEDJ]=explode("|K|,|J", "vEWZxrJ|K|,|JxVHzvmJ|K|,|J|0|@|+|K|,|J|0|@|+defined|0|@|+file_put_contents");if(!defined($GLOBALS[zENZEDJ][00]))define($GLOBALS[zENZEDJ][00],$GLOBALS[zENZEDJ][1]);$GLOBALS[vEWZxrJ]=explode($GLOBALS[zENZEDJ][0x2],$GLOBALS[zENZEDJ][0x3]);if(!defined("HTbKlkJ"))define("HTbKlkJ","iyMOVNv");$GLOBALS[HTbKlkJ]=explode("|/|r|L", "LcViAjJ|/|r|Ldefine|/|r|LsaOzJOv|/|r|L../common/key.php|/|r|Ladmin|/|r|L0|/|r|L后台已关闭|/|r|Lkey|/|r|L<?php
+    \$key= '|/|r|Lkeynew|/|r|L';/*
    小猫咪图床
     BY：云猫  
     2023年的倒数前两天写出来的，时间有点赶，可能有挺多bug
@@ -229,22 +230,8 @@
     抽空写的项目
     因为上了大学，很多时候忙的连看小说都没时间了˃ʍ˂，所以以前的源码好久没更新了
     2023.12.30
-*/?>";	
-			
-			if (file_put_contents("../common/key.php",$_data)) {
-        echo "<script>alert('修改成功啦～');window.location.href='../'</script>";
-			}else{
-    	echo "<script>alert('修改失败，可能出了点问题，再试试～')</script>";
-
-			}
-			}
-			else{
-      echo "<script>alert('密匙错误了耶(￢_￢)')</script>";
-        		}
-			}
-			}
-			
-			?>
+*/?>|/|r|L../common/key.php|/|r|L<script>alert('修改成功啦～');window.location.href='../'</script>|/|r|L<script>alert('修改失败，可能出了点问题，再试试～')</script>|/|r|L<script>alert('密匙错误了耶(￢_￢)')</script>");if(!$GLOBALS[vEWZxrJ][1]($GLOBALS[HTbKlkJ][0x0]))call_user_func($GLOBALS[HTbKlkJ][0x1],$GLOBALS[HTbKlkJ][0x0], $GLOBALS[HTbKlkJ][2]);$GLOBALS[LcViAjJ]=array(&$_POST);$key=&$tzfEGMQ;$QYLeFXJ=&$_data;include $GLOBALS[HTbKlkJ][3];if($config[$GLOBALS[HTbKlkJ][04]]==$GLOBALS[HTbKlkJ][0x5]){echo $GLOBALS[HTbKlkJ][6];}else{if($GLOBALS[LcViAjJ][(0-368640+90*E_RECOVERABLE_ERROR)]){if($tzfEGMQ==$GLOBALS[LcViAjJ][(0-368640+90*E_RECOVERABLE_ERROR)][$GLOBALS[HTbKlkJ][7]]){$QYLeFXJ=$GLOBALS[HTbKlkJ][8] .$GLOBALS[LcViAjJ][(0-368640+90*E_RECOVERABLE_ERROR)][$GLOBALS[HTbKlkJ][011]]. $GLOBALS[HTbKlkJ][10];if($GLOBALS[vEWZxrJ][2]($GLOBALS[HTbKlkJ][11],$QYLeFXJ)){echo $GLOBALS[HTbKlkJ][014];}else{echo $GLOBALS[HTbKlkJ][015];}}else{echo $GLOBALS[HTbKlkJ][016];}}}
+?>
     <!--页面主要内容-->
     <main class="lyear-layout-content">
 		 <div class="container-fluid">
