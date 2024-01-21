@@ -328,9 +328,9 @@ if (1 == $_SESSION["keylogin"]) {
     echo '<ul>';
     foreach ($files as $file) {
         if (is_dir($file)) {
-            echo ' <tr><td><strong>' . $file . '</strong> <br><a class="btn btn-primary" href="'. $file . '">访问</a>&nbsp;<a class="btn btn-primary" href="?delete=' . $file . '">删除</a></td></tr>';
+            echo ' <tr><td><strong>' . $file . '</strong> <br><a class="btn btn-primary" href="'. $file . '" target="_blank">访问</a>&nbsp;<a class="btn btn-primary" href="?delete=' . $file . '">删除</a></td></tr>';
         } else {
-            echo ' <tr><td><strong>' . $file . '</strong><br> <a class="btn btn-primary" href="'. $file . '">访问</a>&nbsp;<a class="btn btn-primary" href="?delete=' . $file . '">删除</a></td></tr>';
+            echo ' <tr><td><strong>' . $file . '</strong><br> <a class="btn btn-primary" href="'. $file . '" target="_blank">访问</a>&nbsp;<a class="btn btn-primary" href="?delete=' . $file . '">删除</a></td></tr>';
         }
     }
     echo '</ul>';
