@@ -1,7 +1,7 @@
 <?php
 include "common/common.php";
 include "common/xiaocurl.php";
-require_once 'oss-sdk-php.phar';
+require_once 'common/oss-sdk-php.phar';
 use OSS\OssClient;
 use OSS\Core\OssException;
 error_reporting(0);
