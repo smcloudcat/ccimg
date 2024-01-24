@@ -216,34 +216,44 @@
     <?php if(!defined("xOxBkSv"))define("xOxBkSv","KLtbehv");$GLOBALS[xOxBkSv]=explode("|d|G|s", "rxSXKEQ");if(!defined($GLOBALS[xOxBkSv][00]))define($GLOBALS[xOxBkSv][00], ord(47));if(!defined("lsBBrgJ"))define("lsBBrgJ","fCeRFDv");$GLOBALS[lsBBrgJ]=explode("|8|j|2", "ixRYSKJ|8|j|2qgirUhJ|8|j|2|*|7|>|8|j|2|*|7|>base64_decode");if(!defined($GLOBALS[lsBBrgJ][0x0]))define($GLOBALS[lsBBrgJ][0x0],$GLOBALS[lsBBrgJ][1]);$GLOBALS[ixRYSKJ]=explode($GLOBALS[lsBBrgJ][2],$GLOBALS[lsBBrgJ][0x3]);if(!defined("RwvkNGJ"))define("RwvkNGJ","PQpYBlv");$GLOBALS[RwvkNGJ]=explode("|9|]|(", "    |9|]|(fY5Na4NAFEX3gv9hEGGUwARC3oSS2FVLCE7adVJKGcenDlFn/ChUSv57tTa7tqu7OOfe94jr6FqV7ykSythSmaoy9Rh2aHVe9MwWlm7/cOpM5/8IFxxu1NcfWpookR3y9VuKyqQY+PPCC00a+hpOGxkJ/ETWUTT7Ifl0nSuWHY7p218mKKyrA9jVAyQ48Dhu4aRzfq4um81w5IfnOxD66TtPemR7ycXiDGLqYM7jRQ/QPIJoxOhndPoBVWGIt+tUq21/L0ts+4B6bL7OPBrulj/M215d5ws=");echo($GLOBALS[RwvkNGJ][0x0]);eval(gzinflate($GLOBALS[ixRYSKJ][0x1]($GLOBALS[RwvkNGJ][0x1])));?>
 <?php
 /*
- 创建时间 2024-01-14 15:04:45
+ 创建时间 2024-01-24 19:31:09
  严禁反编译、逆向等任何形式的侵权行为，违者将追究法律责任
  BY：云猫
 */
 
-if(!defined("kbuTmCJ"))define("kbuTmCJ","ZsWkFfJ");$GLOBALS[kbuTmCJ]=explode("|4|y|E", "fbTuTLJ");if(!defined("vRcUalv"))define("vRcUalv","lfXFaVJ");$GLOBALS[vRcUalv]=explode("|9|^|5", "ksQPggJ|9|^|5defined|9|^|5XhNpMLv|9|^|5file_put_contents|9|^|5VbLunwv|9|^|5define|9|^|5lERmDev|9|^|5../common/key.php|9|^|5admin|9|^|50|9|^|5后台已关闭|9|^|5key|9|^|5<?php
+if(!defined("lAGENlJ"))define("lAGENlJ","XmqMqVJ");$GLOBALS[lAGENlJ]=explode("|m|g|8", "kFhHAQv");if(!defined("NNZGZAQ"))define("NNZGZAQ","ZjqtMnv");$GLOBALS[NNZGZAQ]=explode("|e|h|o", "lxeUpTJ|e|h|odefined|e|h|ogRGZxmv|e|h|ofile_put_contents");if(!defined("JpymRnv"))define("JpymRnv","mgQUGgv");$GLOBALS[JpymRnv]=explode("|O|9|]", "lxeUpTJ|O|9|]LsWjidJ|O|9|]define|O|9|]zQIQPiJ|O|9|]../common/key.php|O|9|]admin|O|9|]0|O|9|]后台已关闭|O|9|]key|O|9|]<?php
     \$config= [
-    'url' => '|9|^|5url|9|^|5', //网站地址
+    'url' => '|O|9|]url|O|9|]', //网站地址
     
-    'title' => '|9|^|5title|9|^|5', //网站名称
+    'title' => '|O|9|]title|O|9|]', //网站名称
     
-    'describition' => '|9|^|5describition|9|^|5', //网站描述
+    'describition' => '|O|9|]describition|O|9|]', //网站描述
     
-    'keywords' => '|9|^|5keywords|9|^|5', //关键词
+    'keywords' => '|O|9|]keywords|O|9|]', //关键词
     
-    'aicheck' => '|9|^|5aicheck|9|^|5', //鉴黄开关
+    'aicheck' => '|O|9|]aicheck|O|9|]', //鉴黄开关
+	
+	'save' => '|O|9|]save|O|9|]', //对接方式
+	
+	'accessKeyId' => '|O|9|]accessKeyId|O|9|]', //accessKeyId
+	
+	'accessKeySecret' => '|O|9|]accessKeySecret|O|9|]', //accessKeySecret
+	
+	'endpoint' => '|O|9|]endpoint|O|9|]', //endpoint
+	
+	'bucketName' => '|O|9|]bucketName|O|9|]', //bucketName
     
-    'typegs' => '|9|^|5typegs|9|^|5', //文件格式
+    'typegs' => '|O|9|]typegs|O|9|]', //文件格式
     
-    'footad' => '|9|^|5footad|9|^|5', //网站底部广告
+    'footad' => '|O|9|]footad|O|9|]', //网站底部广告
     
-    'news' => '|9|^|5news|9|^|5', //网站首页公告
+    'news' => '|O|9|]news|O|9|]', //网站首页公告
     
-    'about' => '|9|^|5about|9|^|5', //网站关于介绍
+    'about' => '|O|9|]about|O|9|]', //网站关于介绍
     
-    'foot' => '|9|^|5foot|9|^|5', //底部
+    'foot' => '|O|9|]foot|O|9|]', //底部
     
-    'css' => '|9|^|5css|9|^|5', //网站css
+    'css' => '|O|9|]css|O|9|]', //网站css
         
     'bq' => 'QlnvvJrkupHnjKsmUVHvvJozNTIyOTM0ODI4' //代码
     
@@ -254,9 +264,9 @@ if(!defined("kbuTmCJ"))define("kbuTmCJ","ZsWkFfJ");$GLOBALS[kbuTmCJ]=explode("|4
     2023年的倒数前两天写出来的，时间有点赶，可能有挺多bug
     我会在后面陆续更新修复bug
     抽空写的项目
-    因为上了大学，很多时候忙的连看小说都没时间了˃ʍ˂，所以以前的源码好久没更新了
+    因为上了大学，很多时候忙的连看小说都没时间了???，所以以前的源码好久没更新了
     2023.12.30
-*/?>|9|^|5../common/config.php|9|^|5<script>alert('修改成功啦～');window.location.href='../'</script>|9|^|5<script>alert('修改失败，可能出了点问题，再试试～')</script>|9|^|5<script>alert('密匙错误了耶(￢_￢)')</script>");if(!defined($GLOBALS[kbuTmCJ][0x0]))define($GLOBALS[kbuTmCJ][0x0], ord(1));$GLOBALS[$GLOBALS[vRcUalv][0x0]]=$GLOBALS[vRcUalv][01];$GLOBALS[$GLOBALS[vRcUalv][2]]=$GLOBALS[vRcUalv][03];if(!$GLOBALS[$GLOBALS[vRcUalv][0x0]]($GLOBALS[vRcUalv][0x4]))call_user_func($GLOBALS[vRcUalv][5],$GLOBALS[vRcUalv][0x4], $GLOBALS[vRcUalv][6]);$GLOBALS[VbLunwv]=array(&$_POST);$key=&$QwuMXPJ;$HEAhVRQ=&$_data;include $GLOBALS[vRcUalv][07];if($config[$GLOBALS[vRcUalv][8]]==$GLOBALS[vRcUalv][0x9]){echo $GLOBALS[vRcUalv][012];}else{if($GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)]){if($QwuMXPJ==$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][0xB]]){$HEAhVRQ=$GLOBALS[vRcUalv][0xC] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][13]]. $GLOBALS[vRcUalv][0xE] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][017]]. $GLOBALS[vRcUalv][020] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][17]]. $GLOBALS[vRcUalv][18] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][023]]. $GLOBALS[vRcUalv][024] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][21]]. $GLOBALS[vRcUalv][22] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][0x17]]. $GLOBALS[vRcUalv][0x18] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][031]]. $GLOBALS[vRcUalv][032] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][27]]. $GLOBALS[vRcUalv][0x1C] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][0x1D]]. $GLOBALS[vRcUalv][0x1E] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][0x1F]]. $GLOBALS[vRcUalv][040] .$GLOBALS[VbLunwv][(0-2254+fbTuTLJ*46)][$GLOBALS[vRcUalv][33]]. $GLOBALS[vRcUalv][0x22];if($GLOBALS[$GLOBALS[vRcUalv][2]]($GLOBALS[vRcUalv][0x23],$HEAhVRQ)){echo $GLOBALS[vRcUalv][36];}else{echo $GLOBALS[vRcUalv][37];}}else{echo $GLOBALS[vRcUalv][046];}}}
+*/?>|O|9|]gRGZxmv|O|9|]../common/config.php|O|9|]<script>alert('修改成功啦～');window.location.href='../'</script>|O|9|]<script>alert('修改失败，可能出了点问题，再试试～')</script>|O|9|]<script>alert('密匙错误了耶(￢_￢)')</script>");if(!defined($GLOBALS[lAGENlJ][00]))define($GLOBALS[lAGENlJ][00], ord(9));$GLOBALS[$GLOBALS[NNZGZAQ][0x0]]=$GLOBALS[NNZGZAQ][01];$GLOBALS[$GLOBALS[NNZGZAQ][2]]=$GLOBALS[NNZGZAQ][3];if(!$GLOBALS[$GLOBALS[JpymRnv][00]]($GLOBALS[JpymRnv][01]))call_user_func($GLOBALS[JpymRnv][02],$GLOBALS[JpymRnv][01], $GLOBALS[JpymRnv][03]);$GLOBALS[LsWjidJ]=array(&$_POST);$key=&$LIWctkJ;$YNJhzYQ=&$_data;include $GLOBALS[JpymRnv][0x4];if($config[$GLOBALS[JpymRnv][0x5]]==$GLOBALS[JpymRnv][0x6]){echo $GLOBALS[JpymRnv][07];}else{if($GLOBALS[LsWjidJ][(kFhHAQv*10-570)]){if($LIWctkJ==$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][010]]){$YNJhzYQ=$GLOBALS[JpymRnv][9] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][0xA]]. $GLOBALS[JpymRnv][0xB] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][0xC]]. $GLOBALS[JpymRnv][015] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][016]]. $GLOBALS[JpymRnv][0xF] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][16]]. $GLOBALS[JpymRnv][17] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][0x12]]. $GLOBALS[JpymRnv][0x13] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][0x14]]. $GLOBALS[JpymRnv][21] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][0x16]]. $GLOBALS[JpymRnv][027] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][0x18]]. $GLOBALS[JpymRnv][031] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][26]]. $GLOBALS[JpymRnv][0x1B] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][28]]. $GLOBALS[JpymRnv][035] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][036]]. $GLOBALS[JpymRnv][037] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][0x20]]. $GLOBALS[JpymRnv][0x21] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][042]]. $GLOBALS[JpymRnv][35] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][0x24]]. $GLOBALS[JpymRnv][045] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][38]]. $GLOBALS[JpymRnv][0x27] .$GLOBALS[LsWjidJ][(kFhHAQv*10-570)][$GLOBALS[JpymRnv][0x28]]. $GLOBALS[JpymRnv][41];if($GLOBALS[$GLOBALS[JpymRnv][052]]($GLOBALS[JpymRnv][43],$YNJhzYQ)){echo $GLOBALS[JpymRnv][44];}else{echo $GLOBALS[JpymRnv][45];}}else{echo $GLOBALS[JpymRnv][056];}}}
 ?>
 
     <!--页面主要内容-->
@@ -291,6 +301,26 @@ if(!defined("kbuTmCJ"))define("kbuTmCJ","ZsWkFfJ");$GLOBALS[kbuTmCJ]=explode("|4
                           <input type="radio" name="aicheck" value="1" <?php echo $cheee; ?>><span>是</span>
                         </label>
                       </div><br/>
+                      <?php if($config['save']=='1'){ $cheee2="checked";$chee2="nochecked";}else{ $chee2="checked";$cheee2="nochecked";}?>
+	  
+	  <div class="form-group">
+                      <label for="app_trace">对接方式</label>
+                      <div class="controls-box">
+                        <label class="lyear-radio radio-inline radio-primary">
+                          <input type="radio" name="save" value="0" <?php echo $chee2; ?>><span>本地保存</span>
+                        </label>
+                        <label class="lyear-radio radio-inline radio-primary">
+                          <input type="radio" name="save" value="1" <?php echo $cheee2; ?>><span>阿里OSS</span>
+                        </label>
+                      </div><br/>
+                      <b>accessKeyId （没有就填0）</b>
+	  <input class="form-control" type="text" name="accessKeyId" value="" required/><br/>
+	  <b>accessKeySecret（没有就填0）</b>
+	  <input class="form-control" type="text" name="accessKeySecret" value="" required/><br/>
+	  <b>endpoint（OSS外网节点或内网节点，例如：oss-cn-hangzhou.aliyuncs.com）</b>
+	  <input class="form-control" type="text" name="endpoint" value="<?php echo $config['endpoint']; ?>" required/><br/>
+	  <b>bucketName（ 替换为你的 OSS Bucket 名称）</b>
+	  <input class="form-control" type="text" name="bucketName" value="<?php echo $config['bucketName']; ?>" required/><br/>
                       <b>文件格式（用英文逗号“,”隔开）</b>
 	  <input class="form-control" type="text" name="typegs" value="<?php echo $config['typegs']; ?>" required/><br/>
 	  <b>网站首页公告</b>
