@@ -1,6 +1,9 @@
 <?php
 include "common/common.php";
 include "common/xiaocurl.php";
+require_once 'oss-sdk-php.phar';
+use OSS\OssClient;
+use OSS\Core\OssException;
 error_reporting(0);
 session_start();
 
@@ -8,11 +11,112 @@ session_start();
 <?php
 $typegs=$config['typegs'];
 $targetDir="images/"; // 图片保存目录
-// 设置图片保存路径的年份、月份和日期部分
 $year = date('Y');
 $month = date('m');
 $day = date('d');
 $random_string = bin2hex(random_bytes(5)); // 生成5字节的随机字符串
+// 处理文件上传
+if ($config['save'] == 1) {
+    
+$accessKeyId = $config['accessKeyId'];
+$accessKeySecret = $config['accessKeySecret'];
+$endpoint = $config['endpoint']; 
+$bucketName = $config['bucketName'];
+
+if ($config['aicheck'] == 1) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['image'])) {
+    $file = $_FILES['image'];
+
+    $fileExtension = pathinfo($file['name'], PATHINFO_EXTENSION);
+    $allowedTypes = explode(",", $typegs);
+    if (!in_array($fileExtension, $allowedTypes)) {
+        $response['status'] = 'error';
+        $response['message'] = '只允许上传 ' . implode(", ", $allowedTypes) . ' 格式的图片文件！';
+    }
+
+    // 初始化OSS客户端
+    try {
+        $ossClient = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
+    } catch (OssException $e) {
+         $response['status'] = 'error';
+         $response['message'] = "OSS客户端初始化失败";
+
+    }
+
+    // 生成唯一文件名
+   $object = $targetDir . $year .$month . $day .$random_string. '.' . $fileExtension;
+
+    // 上传文件到OSS
+    try {
+        $ossClient->uploadFile($bucketName, $object, $file['tmp_name']);
+    } catch (OssException $e) {
+        $response['status'] = 'error';
+        $response['message'] = "上传失败，请检查对接配置";
+    }
+
+     $str = xiaocurl("https://lwcat.cn/aicheck.php?url=" . $config['url'] . $object . "");
+
+                $aicheck = json_decode($str, true);
+                if ($aicheck["code"] == 1) {
+                    if ($aicheck["rating"] == 1) {
+
+
+                        $response['status'] = 'success';
+                        $response['message'] = $config['url'] . $object;
+                    } else {
+                        unlink($newFileName);
+                        $response['status'] = 'error';
+                        $response['message'] = "此图片为不健康图片哦，不支持上传哦";
+                    }
+
+                } else {
+                    $response['status'] = 'error';
+                    $response['message'] = "图片鉴黄失败，请重新上传";
+                }
+
+            }
+}
+else
+{
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['image'])) {
+    $file = $_FILES['image'];
+
+
+    $fileExtension = pathinfo($file['name'], PATHINFO_EXTENSION);
+    $allowedTypes = explode(",", $typegs);
+    if (!in_array($fileExtension, $allowedTypes)) {
+        $response['status'] = 'error';
+        $response['message'] = '只允许上传 ' . implode(", ", $allowedTypes) . ' 格式的图片文件！';
+    }
+
+    // 初始化OSS客户端
+    try {
+        $ossClient = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
+    } catch (OssException $e) {
+         $response['status'] = 'error';
+         $response['message'] = "OSS客户端初始化失败";
+
+    }
+
+    // 生成唯一文件名
+    $object = $targetDir . $year .$month . $day .$random_string. '.' . $fileExtension;
+
+    // 上传文件到OSS
+    try {
+        $ossClient->uploadFile($bucketName, $object, $file['tmp_name']);
+    } catch (OssException $e) {
+        $response['status'] = 'error';
+        $response['message'] = "上传失败，请检查对接配置";
+    }
+  
+        $response['status'] = 'success';
+        $response['message'] = $config['url'] . $object;
+     
+}
+}
+}
+else{
+
 
 $path = $targetDir . $year . '/' . $month . '/' . $day;
 if (!file_exists($path)) {
@@ -77,6 +181,8 @@ if (isset($_FILES["image"])) {
 } else {
     $response['status'] = 'error';
     $response['message'] = '请选择要上传的图片文件！';
+}
+
 }
 
 echo json_encode($response);
