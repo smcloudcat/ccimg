@@ -1,6 +1,6 @@
 <?php
     $config= [
-    'url' => 'https://修改成你的域名/', //网站地址
+    'url' => 'https://xiaocat.oss-cn-guangzhou.aliyuncs.com/', //网站地址
     
     'title' => '小猫咪免费图床', //网站名称
     
@@ -9,6 +9,16 @@
     'keywords' => '小猫咪免费图床', //关键词
     
     'aicheck' => '0', //鉴黄开关
+	
+	'save' => '0', //对接方式
+	
+	'accessKeyId' => '0', //accessKeyId
+	
+	'accessKeySecret' => '0', //accessKeySecret
+	
+	'endpoint' => 'oss-cn-guangzhou.aliyuncs.com', //endpoint
+	
+	'bucketName' => '0', //bucketName
     
     'typegs' => 'jpg,png,jpeg,gif', //文件格式
     
@@ -16,7 +26,7 @@
     
     'news' => '<h2>小猫咪图床</h2>请勿上传违法大陆法律的内容<br>因为本站已开启图片自动鉴黄，所以上传显示100%后请等待一会儿<br>鉴黄检测结束后即会显示图片链接', //网站首页公告
     
-    'about' => '<img src="https://q.qlogo.cn/g?b=qq&nk=3522934828&s=100" alt="头像"><p>作者：云猫</p><p>QQ：123456</p><p>一只待在大学里混的小懒猫</p><p>他好像什么都会一点点，又好像什么都不会的鸭子</p>
+    'about' => '<img src="https://q.qlogo.cn/g?b=qq&nk=3522934828&s=100" alt="头像"><p>作者：云猫</p><p>QQ：1234567</p><p>一只待在大学里混的小懒猫</p><p>他好像什么都会一点点，又好像什么都不会的鸭子</p>
 <style>
 img {
     width: 100px;
@@ -117,6 +127,6 @@ input{
     2023年的倒数前两天写出来的，时间有点赶，可能有挺多bug
     我会在后面陆续更新修复bug
     抽空写的项目
-    因为上了大学，很多时候忙的连看小说都没时间了˃ʍ˂，所以以前的源码好久没更新了
+    因为上了大学，很多时候忙的连看小说都没时间了???，所以以前的源码好久没更新了
     2023.12.30
 */?>
